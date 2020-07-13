@@ -9,7 +9,8 @@ import { ThrowStmt } from '@angular/compiler';
 
 @Component({
   selector: 'app-photo-editer',
-  templateUrl: './photo-editer.component.html',
+  templateUrl:
+  './photo-editer.component.html',
   styleUrls: ['./photo-editer.component.css']
 })
 export class PhotoEditerComponent implements OnInit {

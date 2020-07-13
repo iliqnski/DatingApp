@@ -33,7 +33,6 @@ import { PhotoEditerComponent } from './members/photo-editer/photo-editer.compon
 import { FileUploadModule } from 'ng2-file-upload';
 import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 
-
 export function tokenGetter() {
    return localStorage.getItem('token');
 }
