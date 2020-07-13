@@ -20,10 +20,14 @@ namespace DatingApp.API.Models
         public string City { get; set; }
         public string Country { get; set; }
         public ICollection<Photo> Photos { get; set; }
+        public ICollection<Like> Likers { get; set; }
+        public ICollection<Like> Likees { get; set; }
 
         public User()
         {
             this.Photos = new List<Photo>();
+            this.Likers = new List<Like>();
+            this.Likees = new List<Like>();
         }
     }
 }
