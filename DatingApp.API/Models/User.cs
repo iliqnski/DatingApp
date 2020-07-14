@@ -22,12 +22,16 @@ namespace DatingApp.API.Models
         public ICollection<Photo> Photos { get; set; }
         public ICollection<Like> Likers { get; set; }
         public ICollection<Like> Likees { get; set; }
+        public ICollection<Message> MessagesSent { get; set; }
+        public ICollection<Message> MessagesReceived { get; set; }
 
         public User()
         {
             this.Photos = new List<Photo>();
             this.Likers = new List<Like>();
             this.Likees = new List<Like>();
+            this.MessagesSent = new List<Message>();
+            this.MessagesReceived = new List<Message>();
         }
     }
 }
